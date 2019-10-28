@@ -1,9 +1,23 @@
 .App {
   text-align: center;
 }
+.container{
+height: 30%;
+display: block;
+}
+
+.cont{
+height: 20%;
+}
+
+img {
+  display: block;
+  margin: auto;
+  /*para centrar el bloque*/
+}
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
 }
 
 .App-header {

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import 
+import  './App.css';
 
-class header extends Component {
+class Header extends Component {
     render() {
         return (
             
-          <div className="container-fluid" style={{height: '30%'}}>
+          <div className="container" style={{height: '30%'}}>
               <br />
               <br />
              <img src="MYtineraryLogo.png" className="img-responsive" alt="Logo" />
@@ -16,4 +16,4 @@ class header extends Component {
     }
 }
 
-export default header;
+export default Header;
