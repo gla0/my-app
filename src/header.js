@@ -5,13 +5,11 @@ class Header extends Component {
     render() {
         return (
             
-          <div className="container" style={{height: '30%'}}>
-              <br />
-              <br />
-             <img src="MYtineraryLogo.png" className="img-responsive" alt="Logo" />
-              <br />
-        
-           </div>
+          <header>
+             
+             <img src="MYtineraryLogo.png" width={936} height={383} alt="Logo" />
+          
+          </header>
         )
     }
 }

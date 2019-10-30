@@ -4,10 +4,10 @@ import  './App.css';
 class Footer extends Component {
     render() {
         return (
-          <footer className="cont" style={{height: '10%'}}>
+          <footer>
           <br />
           <a href="MYti.html">
-            <img src="homeIcon.png" className="mx-auto d-block" style={{width: '25%'}} alt="Home" />
+            <img src="homeIcon.png" width={512} height={512} alt="Home" />
           </a>
           <br />
         </footer>
